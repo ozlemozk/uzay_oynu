@@ -10,10 +10,7 @@ public class Main {
         ekran.setSize(800,600); //formun boyutlarını ayarlıyoruz
         ekran.setDefaultCloseOperation(JFrame.EXIT_ON_CLOSE);
 
-
-
-
-        Oyun oyun=new Oyun();
+       Oyun oyun=new Oyun();
         oyun.requestFocus();//klavyeden işlemleri direk anlamak 
         oyun.addKeyListener(oyun);//klavyeden işlemleri almamızı sağlar 
         oyun.setFocusable(true);//odağı jpanel verdik 
